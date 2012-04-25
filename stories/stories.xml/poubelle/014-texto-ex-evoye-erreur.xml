@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="story2html.xsl"?>
+<!DOCTYPE story SYSTEM "story.dtd">
+<story ignore="yes">
+    <id>14</id>
+    <original>
+        Aujourd'hui j'ai voulu envoyer un texto à une amie pour lui raconter les
+        révélations qu'on m'avait fait sur mon ex hier soir (en précisant l'auteur de
+        ces révélations bien sûr!)... devinez a qui j'ai envoyé le texto? 
+    </original>
+    
+    <categories>
+        <category>coincidence</category>
+    </categories>
+    
+    <insert-test>
+        <main>
+            J'ai voulu envoyer un texto à une amie pour lui raconter les
+            révélations qu'on m'avait fait sur mon ex hier soir 
+            (en précisant aussi l'auteur de ces révélations)... 
+            En faisant une fausse manip, je l'ai envoyé par erreur à <insert /> ...
+        </main>
+        <alternatives>
+            <alt altid="1">mon ex</alt>
+            <alt altid="2">ma soeur</alt>
+        </alternatives>
+    </insert-test>
+</story>

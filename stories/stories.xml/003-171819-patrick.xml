@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="story2html.xsl"?>
+<!DOCTYPE story SYSTEM "story.dtd">
+
+<story>
+    <id>3</id>
+    <vdmid>171819</vdmid>
+    <original>à la machine à café, je parlais avec un collègue 
+    de Bob l'Eponge et plus particulièrement de Patrick, l'étoile de mer. 
+    A un moment, je lance "J'aime pas Patrick, il est trop con." 
+    Mon chef de service passe, il s'appelle Patrick.</original>
+
+    <comment>
+    </comment>
+
+    <categories>
+        <category>emotional</category>
+        <category>humour</category>
+        
+        <category>analogy</category>
+    </categories>
+
+    
+    <insert-test>
+        <main>à la machine à café, je parlais avec un collègue 
+            de Bob l'Eponge et plus particulièrement de son meilleur ami, 
+            Patrick, l'étoile de mer.
+             
+            A un moment, je lance "J'aime pas Patrick, l'étoile de mer, il est trop bête".
+
+            A cet instant précis, mon chef de service passe, il s'appelle <insert/>.
+        </main>
+
+        <alternatives>
+            <alt altid="1">Patrick Etoile</alt>
+            <alt altid="2">Patrick</alt>
+            <alt altid="3">Christophe</alt>
+        </alternatives>
+
+    </insert-test>
+
+
+    <compare-test>
+        <alternatives>
+            <alt altid="1">
+                à la machine à café, je parlais avec un collègue 
+                    de Bob l'Eponge et plus particulièrement de Patrick, l'étoile de mer. 
+                    A un moment, je lance "J'aime pas Patrick".
+                    Mon chef de service passe, il s'appelle Patrick.
+            </alt>
+    
+            <alt altid="2">
+                à la machine à café, je parlais avec un collègue 
+                    de Bob l'Eponge et plus particulièrement de Patrick, l'étoile de mer. 
+                    A un moment, je lance "J'aime pas Patrick<ch></ch>". 
+                    Mon chef de service passe, il s'appelle <ch>Patrice</ch>.
+            </alt>
+    
+            <alt altid="3">
+                à la machine à café, je parlais avec un collègue 
+                    de Bob l'Eponge et plus particulièrement de Patrick, l'étoile de mer. 
+                    A un moment, je lance "J'aime pas Patrick<ch></ch>".
+                    Mon chef de service passe, il s'appelle <ch>Christophe</ch>.
+            </alt>
+        </alternatives>
+    </compare-test>
+</story>

@@ -1,0 +1,92 @@
+Original
+========
+
+Les histoires présentées le Tuesday, November 18 2008:
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+1. Je marche tranquillement
+2. dans la rue
+3. quand un parfait inconnu s'arrête devant moi
+4. me considère
+5. et me met une gifle phénoménale
+6. avant de continuer sa route
+
+5')  et me regarde
+a) en chemin il a cassé la nouvelle vitre
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+1. je jouais avec une pièce sur le bureau
+2. elle a roulé sur le bureau
+3. après elle est tombée dans la poubelle vide
+4. elle a roulé encore à l'intérieur de la poubelle
+5. et puis elle s'est arêtée
+6. exactement en plein milieu
+
+6'.quelque part
+a. attendre dans sa voiture à 6 heures du matin
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+Laure :
+=====
+
+1. je jouais avec une pièce sur le bureau
+6. exactement en plein milieu
+2. elle a roulé sur le bureau
+3. après elle est tombée dans la poubelle vide
+5. et puis elle s'est arrêtée
+6'. quelque part
+^^^ BAD
+
+1. je marche tranquillement
+3. quand un parfait inconnu s'arrête devant moi
+5'. et me regarde
+5. et me met une gifle phénoménale
+6. avant de continuer sa route
+2. dans la rue
+
+
+Hayette :
+=======
+
+1. je marche tranquillement 
+2. dans la rue
+3. quand un parfait inconnu s'arrête devant moi
+5'. et me regarde
+5. et me met une gifle phénoménale
+4. me considère
+6. avant de continuer sa route
+
+
+Hoa :
+===
+
+1. je jouais avec une pièce sur le bureau
+2. elle a roulé sur le bureau
+3. après elle est tombée dans la poubelle vide
+4. elle a roulé encore à l'intérieur de la poubelle
+5. et puis elle s'est arêtée
+6. exactement en plein milieu
+
+
+1. je marche tranquillement
+3. quand un parfait inconnu s'arrête devant moi
+4. me considère
+5. et me met une gifle phénoménale
+6. avant de continuer sa route
+a) en chemin il a cassé la nouvelle vitre
+
+
+Mes commentaires
+================
+
+"en chemin il a cassé la nouvelle vitre" a été insérée dans le scénario par Hoa.
+   j'ai fait l'erreur de lui expliquer le principe immédiatement après le 1er set.
+   en plus, il est insérable.
+
+Ce qui est surtout embêtant c'est que les phrases primes (alternatives) sont insérées et insérables
+à d'autres endroits que prévu. Ce qui fausse le calcul.
+

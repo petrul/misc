@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="story2html.xsl"?>
+<!DOCTYPE story SYSTEM "story.dtd">
+<story>
+    <id>23</id>
+    <original>
+        Aujourd'hui, je me demande quelle était la probabilité pour qu'en me couchant au
+        soleil dans l'herbe, un oiseau se soulage pile dans mon œil droit au seul moment
+        où je l'ouvrais... Une sur des millions ? Alors on peut dire que j'ai beaucoup
+        de chance. Ou pas... VDM 
+    </original>
+    
+    <categories>
+    	<category></category>
+    </categories>
+    
+    <insert-test>
+    	<main>
+	    	J'étais couché dans l'herbe sous les arbres 
+	    	un après-midi d'automne, 
+	    	quand une feuille morte s'est posée pile <insert />... 
+    	</main>
+
+    	<alternatives>
+    		<alt altid="1">sur mon nez</alt>
+    		<alt altid="2">sur mon visage</alt>
+    		<alt altid="3">sur mon corps</alt>
+    	</alternatives>
+
+    </insert-test>
+</story>

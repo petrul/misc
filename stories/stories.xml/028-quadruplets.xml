@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="story2html.xsl"?>
+<!DOCTYPE story SYSTEM "story.dtd">
+<story>
+	<id>28</id>
+	<original>
+		http://www.gulfnews.com/nation/General/10261440.html
+		
+		Dubai: A Sudanese woman gave birth to quadruplets at Al Wasl
+		Hospital on Thursday morning, becoming the second person to do so in
+		Dubai's recorded history, according to her family.
+    </original>
+
+	<categories>
+		<category>deviation quantitative</category>
+	</categories>
+
+	<insert-test>
+
+		<main>
+			J'ai une voisine en bas de chez moi 
+			qui a donné naissance à des <insert />
+			il y a juste quelques jours. Elle a accouché prématurément, 
+			elle disait être étonnée de les voir si petits.
+		</main>
+
+		<alternatives>
+			<alt altid="1">quadruplés</alt>
+			<alt altid="2">triplés</alt>
+			<alt altid="3">jumeaux</alt>
+		</alternatives>
+
+	</insert-test>
+</story> 

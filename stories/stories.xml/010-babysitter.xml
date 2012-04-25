@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="story2html.xsl"?>
+<!DOCTYPE story SYSTEM "story.dtd">
+<story>
+    <id>10</id>
+
+
+    <original>
+        L. me raconte que l'après-midi même, elle a rencontré a entendu qu'on
+        l'appelait: c'étaient des jeunes filles dont elle avait été babysitter pendant
+        deux ans 8 ans auparavant. Elles ont échangé leurs adresses. Ca lui a fait super
+        plaisir.
+    </original>
+
+
+    <comment></comment>
+
+
+    <categories>
+        <category>coincidence</category>
+        <category>remote encounter</category>
+    </categories>
+
+
+    <insert-test>
+        <main>
+            Je passais dans une rue en plein milieu de Paris 
+            quand j'ai entendu quelqu'un m'appeler: 
+            c'était un gars <insert/> quand il était gamin.
+            Nous avons échangé nos adresses. Ca m'a fait super plaisir.
+        </main>
+
+        <alternatives>
+            <alt altid="1">que j'ai babysitté pendant 2 ans</alt>
+            <alt altid="2">que j'ai babysitté pendant 2 mois</alt>
+            <alt altid="3">que j'ai babysitté quelques soirs</alt>
+        </alternatives>
+    </insert-test>
+
+
+    <compare-test>
+        <alternatives>
+            <alt altid="1">
+                <text>
+                    Cet après-midi même, Louise a entendu qu'on l'appelait: c'étaient deux jeunes filles
+                    <ch>dont elle avait été babysitter pendant 2 ans, 8 ans auparavant</ch>. Elles ont
+                    échangé leurs adresses. Ca lui a fait super plaisir.
+                </text>
+            </alt>
+            <alt altid="2">
+                <text>
+                    Cet après-midi même, Louise a entendu qu'on l'appelait: c'étaient deux jeunes filles
+                    <ch>qu'elle avait rencontrées 8 ans auparavant</ch>. Elles ont
+                    échangé leurs adresses. Ca lui a fait super plaisir.
+                </text>
+            </alt>
+            <alt altid="3">
+                <text>
+                    Cet après-midi même, Louise a entendu qu'on l'appelait: c'étaient deux jeunes filles
+                    <ch>dont elle avait été babysitter pendant 3 jours, 8 ans auparavant</ch>. Elles ont
+                    échangé leurs adresses. Ca lui a fait super plaisir.
+                </text>
+            </alt>
+    
+        </alternatives>
+    </compare-test>
+
+
+</story>
+

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="test.pertinence.story" >
+  <class name="User" lazy="false">
+  	<id name="login"></id>
+  	<property name="firstName"></property>
+  	<property name="lastName"></property>
+  	<property name="sex"></property>
+  	<property name="email"></property>
+  	<property name="occupation"></property>
+  	<property name="hostIp"></property>
+  	<property name="resolvedHostName"></property>
+  	<property name="comment" length="60000"></property>
+  </class>
+</hibernate-mapping>

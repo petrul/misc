@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="test.pertinence.story.results">
+  <class name="ComparisonResult" >
+  	<id name="id" unsaved-value="0"><generator class="native"></generator></id>
+  	<property name="comparisonValue" not-null="false"></property>
+  	<property name="date" not-null="true"></property>
+  	<many-to-one name="user" ></many-to-one>
+  	<property name="leftStoryId" not-null="true"></property>
+  	<property name="leftStoryVersionId" not-null="true"></property>
+  	<property name="rightStoryId" not-null="true"></property>
+  	<property name="rightStoryVersionId" not-null="true"></property>
+  </class>
+</hibernate-mapping>

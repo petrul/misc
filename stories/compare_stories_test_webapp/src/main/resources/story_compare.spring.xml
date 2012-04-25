@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="
+		http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+        http://www.springframework.org/schema/context 
+        http://www.springframework.org/schema/context/spring-context-2.5.xsd">
+
+	<context:component-scan base-package="test.pertinence.ui" />
+
+	<bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="location"><value>classpath:/stories-dev.properties</value></property>
+	</bean>
+
+	<bean id="story-repository" class="test.pertinence.story.repository.XmlDirStoryRepository">
+		<!--		<constructor-arg value="classpath:stories"></constructor-arg>-->
+		<constructor-arg
+			value="${stories.xml.location}"></constructor-arg>
+	</bean>
+
+	<bean id="datasource" class="test.pertinence.dao.CustomDbcpBasicDataSource"
+		destroy-method="close">
+		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
+		<property name="url" value="${jdbc.url}" />
+		<property name="username" value="${jdbc.username}" />
+		<property name="password" value="${jdbc.password}" />
+		<property name="testWhileIdle" value="true"/>
+		<property name="validationQuery" value="select count(*) from User" />
+	</bean>
+
+	<bean id="session-factory"
+		class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
+		<property name="dataSource" ref="datasource" />
+		<property name="mappingResources">
+			<list>
+				<value>test/pertinence/story/User.hbm.xml</value>
+        		<value>test/pertinence/results/InsertionResult.hbm.xml</value>
+        		<value>test/pertinence/events/Event.hbm.xml</value>
+			</list>
+		</property>
+		<property name="hibernateProperties">
+			<value>
+				hibernate.dialect=org.hibernate.dialect.MySQL5Dialect
+<!--				hibernate.hbm2ddl.auto=update-->
+				hibernate.bytecode.use_reflection_optimizer=true
+				hibernate.show_sql=false
+				hibernate.format_sql=true
+				hibernate.use_sql_comments=true
+			</value>
+		</property>
+	</bean>
+
+	<bean id="result-dao" class="test.pertinence.dao.ResultDaoImpl">
+		<property name="sessionFactory" ref="session-factory"></property>
+	</bean>
+	<bean id="user-dao" class="test.pertinence.dao.UserDaoImpl">
+		<property name="sessionFactory" ref="session-factory"></property>
+	</bean>
+	<bean id="event-dao" class="test.pertinence.dao.EventDaoImpl">
+		<property name="sessionFactory" ref="session-factory"></property>
+	</bean>
+
+	<!-- mail stuff -->
+	<bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
+		<property name="host" value="smtp.enst.fr" />
+	</bean>
+
+	<bean id="templateMessage" class="org.springframework.mail.SimpleMailMessage">
+		<property name="from" value="test-histoires@enst.fr" />
+		<property name="subject" value="Message du test de pertinence d'histoires" />
+		<property name="to" value="${mail.to}" />
+	</bean>
+	
+	<bean class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+		<property name="mappings">
+			<value>
+				/insert/*=insertController
+				/compare/*=compareController
+				/login/*=loginController
+				/inspect/*=inspectController
+	    	</value>
+		</property>
+	</bean>
+	
+	<bean class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
+		<property name="exceptionMappings">
+			<map>
+				<entry key="org.springframework.web.HttpSessionRequiredException" value="errors/session-expired" />
+			</map>
+		</property>
+		<property name="defaultErrorView" value="errors/general-error" />
+	</bean>
+ 
+	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/WEB-INF/jsp/" />
+		<property name="suffix" value=".jsp" />
+	</bean>
+
+	<bean class="org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator" />
+</beans>

@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="story2html.xsl"?>
+<!DOCTYPE story SYSTEM "story.dtd">
+<story>
+    <id>4</id>
+    <vdmid>188952</vdmid>
+
+    <original>
+        Pour l'anniversaire de 19 ans de ma petite soeur, mes parents lui ont offert 
+        un écran plat de 82 cm. Il y a 2 mois, pour le mien, ils m'ont offert 
+        un coffret de déodorants Axe.
+   </original>
+
+    <comment></comment>
+
+    <categories>
+        <category>analogy</category>
+        <category>humour</category>
+    </categories>
+    
+    <insert-test>
+        <main>Pour l'anniversaire de ma petite soeur, mes parents lui ont offert 
+                    un écran plat noir de 82 cm. Il n'y a pas longtemps, pour le mien, 
+                    ils m'ont offert <insert/>.</main>
+        <alternatives>
+            <alt altid="1">une batte de baseball noire de 82 cm</alt>
+            <alt altid="2">une batte de baseball de 82 cm</alt>
+            <alt altid="3">une batte de baseball</alt>
+            <alt altid="4">une chaîne hi-fi</alt>
+        </alternatives>
+    </insert-test>
+    
+    
+    <compare-test>
+        <alternatives>
+            <alt altid="1" copy-original="yes"></alt>
+            <alt altid="2">
+                    Pour l'anniversaire de 19 ans de ma petite soeur, mes parents lui ont offert 
+                    un écran plat de 82 cm. Il y a 2 mois, pour le mien, ils m'ont offert 
+                    <ch>une chaîne hi-fi</ch>.
+            </alt>
+            <alt altid="3">
+                    Pour l'anniversaire de 19 ans de ma petite soeur, mes parents lui ont offert 
+                    un écran plat de 82 cm. Il y a 2 mois, pour le mien, ils m'ont offert 
+                    un <ch>baton de baseball de 82 cm</ch>.
+            </alt>
+        </alternatives>
+    </compare-test>
+</story>
+

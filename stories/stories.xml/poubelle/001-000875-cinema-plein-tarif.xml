@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="story2html.xsl"?>
+<!DOCTYPE story SYSTEM "story.dtd">
+<story ignore="yes">
+    <id>1</id>
+    <vdmid>875</vdmid>
+    <original>je suis allé au cinéma, à la caisse la dame m'a fait payer plein tarif mais pas à mes potes</original>
+
+    <comment>pas sûr si on garde cette histoire</comment>
+
+    <categories>
+        <category>déviation qualitative</category>
+        <category>inéquité</category>
+    </categories>
+
+    <insert-test>
+        <main>Je suis allé au cinéma avec mes amis : à la caisse la dame m'a fait payer 
+            plein tarif <insert/>.
+        </main>
+        <alternatives>
+            <alt altid="1">mais pas à mes amis</alt>
+            <alt altid="2">et à mes amis aussi</alt>
+        </alternatives>
+    </insert-test>
+    
+    <compare-test>
+        <alternatives>
+            <alt altid="1">
+                Je suis allé au cinéma avec mes amis : à la caisse la dame m'a fait payer plein tarif 
+                mais pas à mes amis.
+            </alt>
+
+            <alt altid="2">
+                Je suis allé au cinéma avec mes amis : à la caisse la dame m'a fait payer plein tarif 
+                et à mes amis aussi.
+            </alt>
+        </alternatives>
+    </compare-test>
+
+</story>
+

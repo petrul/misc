@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="story2html.xsl"?>
+<!DOCTYPE story SYSTEM "story.dtd">
+<story>
+    <id>2</id>
+    <vdmid>161488</vdmid>
+    <original>
+        je marche tranquillement dans la rue quand un parfait inconnu s'arrête devant moi, 
+        me considère et me met une gifle phénoménale avant de continuer sa route.
+    </original>
+
+    <comment>à mettre en relation avec les blagues: le premier jour, le deuxième, le troisième</comment>
+    
+    <categories>
+        <category>déviation qualitative</category>
+        
+        <category>humour</category>
+        
+        <comment>déviation entre ce qui est censé faire une personne dans la rue et la gifle</comment>
+    </categories>
+
+   <insert-test>
+        <main>je marche tranquillement dans la rue quand un parfait inconnu s'arrête devant moi, 
+            me considère et <insert/> avant de continuer sa route.</main>
+        <alternatives>
+            <alt altid="1">me met une gifle phénoménale</alt>
+            <alt altid="2">me met une petite gifle</alt>
+            <alt altid="3">me tape sur l'épaule</alt>
+            <alt altid="4">me demande l'heure</alt>
+        </alternatives>
+   </insert-test>
+    
+    <compare-test>
+        <alternatives>
+            <alt copy-original="yes" altid="1"></alt>
+            <alt altid="2">
+                je marche tranquillement dans la rue quand un parfait inconnu s'arrête devant moi, 
+                        me considère et me <ch>regarde</ch> avant de continuer sa route.
+            </alt>
+            <alt altid="3">
+                je marche tranquillement dans la rue quand un parfait inconnu me met une gifle.
+            </alt>
+            <alt altid="4">
+                je marche tranquillement dans la rue quand <ch>mon compagnon de marche</ch> s'arrête devant moi, 
+                me considère et me met une gifle phénoménale avant de continuer <ch>la</ch> route.
+            </alt>
+        </alternatives>
+   </compare-test>
+
+</story>

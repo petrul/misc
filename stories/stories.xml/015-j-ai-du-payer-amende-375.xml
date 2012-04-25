@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="story2html.xsl"?>
+<!DOCTYPE story SYSTEM "story.dtd">
+<story>
+    <id>15</id>
+    <original>
+        Aujourd'hui j'ai dû payer 375 euros une amende vieille d'un an à cause du trésor
+        public qui n'a pas envoyé les rappels a la bonne adresse, en plus j'avais 315
+        euros sur mon compte et j'avais mon titre de transport sur moi quand je me suis
+        pris l'amende . VDM  
+    </original>
+    
+    <categories>
+    	<category>analogy</category>
+    </categories>
+    
+    <insert-test>
+    	<main>
+	    	J'ai dû payer 400 euros une amende vieille d'un an à cause du trésor
+	        public qui n'a pas envoyé les rappels à la bonne adresse.
+	         
+	        Au moment du prélèvement, j'avais exactement <insert/> euros sur mon compte.
+    	</main>
+    	<alternatives>
+    		<alt altid="1">400</alt>
+    		<alt altid="2">401</alt>
+    		<alt altid="3">419</alt>
+    	</alternatives>
+    </insert-test>
+</story>
+

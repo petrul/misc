@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="story2html.xsl"?>
+<!DOCTYPE story SYSTEM "story.dtd">
+<story>
+    <id>22</id>
+    <original>
+        Aujourd'hui, je vais au bureau de tabac de mon village, je tends mon ticket
+        Euromillions et on m'annonce, forcément, que je n'ai aucun gain. "Par contre" me
+        dit la buraliste "et je n'ai jamais vu ça, votre grille est celle de la semaine
+        dernière ! A une semaine près, c'est bête ça". Gros moment de détresse. VDM
+    </original>
+    
+    <categories>
+    	<category>temporal proximity</category>
+    </categories>
+    
+    <insert-test>
+    	<main>
+    		Je vais au bureau de tabac de mon village, je tends mon ticket
+	        Euromillions et on m'annonce, forcément, que je n'ai aucun gain. "Par contre" me
+	        dit la buraliste "et je n'ai jamais vu ça, votre grille est exactement <insert/> !".
+        </main>
+        
+        <alternatives>
+        	<alt altid="1">celle de la semaine dernière</alt>
+        	<alt altid="2">celle d'il y a deux semaines</alt>
+        	<alt altid="3">celle d'il y a cinq mois</alt>
+        </alternatives>
+    </insert-test>
+</story>
+

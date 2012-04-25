@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="test.pertinence.results">
+  <class name="InsertionResult" >
+  	<id name="id" unsaved-value="0"><generator class="native"></generator></id>
+  	<property name="date" not-null="true"></property>
+  	<many-to-one name="user" ></many-to-one>
+  	<property name="storyid" not-null="false"></property>
+  	
+  	<property name="optionPresented1" 	not-null="true"></property>
+  	<property name="optionPresented2" 	not-null="true"></property>
+  	<property name="chosenOption" 		not-null="true"></property>
+  	<property name="comment" 		not-null="false" length="60000"></property>
+  </class>
+</hibernate-mapping>

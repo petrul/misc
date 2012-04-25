@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="story2html.xsl"?>
+<!DOCTYPE story SYSTEM "story.dtd">
+<story>
+    <id>16</id>
+    <original>
+        Aujourd'hui, j'étais tout heureuse de troquer mon ancienne plaque
+        d'immatriculation CKK pour une nouvelle. Je m'"appelle" maintenant DCD. Étant
+        superstitieuse, je trouve ça moyen. VDM   
+    </original>
+    
+    <categories>
+    	<category>structure</category>
+    </categories>
+    
+    <insert-test>
+    	<main>
+	    	Je suis allé récupérer la plaque d'immatriculation de ma toute nouvelle voiture;
+	    	quand je regarde, mon numéro, c'est <insert/> .
+    	</main>
+    	<alternatives>
+    		<alt altid="1">999 NNN 91</alt>
+    		<alt altid="2">253 NNN 91</alt>
+    		<alt altid="3">253 UPV 91</alt>
+    	</alternatives>
+    </insert-test>
+
+</story>
+

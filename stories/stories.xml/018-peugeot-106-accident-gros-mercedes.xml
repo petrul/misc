@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="story2html.xsl"?>
+<!DOCTYPE story SYSTEM "story.dtd">
+<story>
+    <id>18</id>
+    <original>
+        Aujourd'hui j'ai acheté ma petite peugeot 106, 2000 euros. Je l'avais essayée
+        avant-hier, elle allait tip top. Je tourne la clé, démarre, sors de la propriété
+        de l'ancien propriétaire de la voiture. Sa femme me rentre dedans avec sa grosse
+        mercedes classe B... VDM
+    </original>
+    
+    <categories>
+    	<category>analogy</category>
+    </categories>
+    
+    <insert-test>
+    	<main>
+	    	J'avais acheté une petite Peugeot 106 ColorLine, j'ai payé 2000 euros. Je l'avais essayée
+	        la veille, elle roulait très bien. 
+	        
+	        J'ai tourné la clé, j'ai démarré, je suis sorti de la propriété
+	        de l'ancien propriétaire de la voiture quand, venant de gauche sans regarder, 
+	        c'est une autre <insert/> qui me rentre dedans ...
+    	</main>
+    	<alternatives>
+    		<alt altid="1">Peugeot 106 ColorLine</alt>
+    		<alt altid="2">Peugeot 106</alt>
+    		<alt altid="3">Peugeot</alt>
+    	</alternatives>
+    </insert-test>
+</story>
+
+ 

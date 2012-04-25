@@ -1,0 +1,35 @@
+body {
+	font-family: georgia;
+	font-size: 16px;
+	background-color: #fff;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 60px;	
+	
+}
+
+h3 {
+	color: #0066CC;
+	text-align: center;
+}
+
+p.subtitle {
+	/* font-style: italic; */
+	font-family:arial, sans-serif;
+	font-size:small;
+	text-align: center;
+	color:gray;
+}
+
+div#toolbar {
+	font-family: tahoma, arial,sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	background-color: #339933;
+	color: #fff;
+	position: absolute;
+	left: 0;
+	top:0;
+	right:0;
+	padding : 10px;
+}

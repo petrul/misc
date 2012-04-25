@@ -1,0 +1,18 @@
+Straight 	: S_L = FFFFFF
+Bented 		: B_L = FFFFLFF
+Cusped		: C_L = FFFFFLLFLLLLFF
+Pigtail		: P_L = FFFFFLFLLFLLLLFFLLFLF
+
+
+{
+	P0 = FFFFF
+	P1 = LLFLLLLFF
+}
+
+S=P0.
+B=P0.DLFF
+C=P0.P1.
+P=P0.LFP1.LLFLF
+
+P1.P0
+

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="story2html.xsl"?>
+<!DOCTYPE story SYSTEM "story.dtd">
+<story ignore="yes">
+
+	<id>26</id>
+
+	<original>
+		Aujourd'hui, j'ai mis 0 à un élève genre branleur, et une colle pour mensonge : il
+		assurait m'avoir rendu un devoir à faire alors que je ne l'avais pas
+		dans mon tas de copies. En fait si, elle avait glissé derrière mon
+		bureau. Je vais devoir m'excuser demain. J'avais pourtant cherché
+		partout.
+    </original>
+
+	<categories>
+		<category>hypothèse</category>
+	</categories>
+
+	<insert-test>
+		<main>
+		</main>
+		<alternatives>
+			<alt altid="1"></alt>
+		</alternatives>
+	</insert-test>
+
+</story>

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="story2html.xsl"?>
+<!DOCTYPE story SYSTEM "story.dtd">
+<story>
+    <id>7</id>
+    <original></original>
+    
+    <categories>
+        <category>déviation quantitative</category>
+    </categories>
+    
+    <insert-test>
+        <main>La Police d'Amiens a effectué mercredi une saisie
+                <insert/> d'héroïne au numéro 13 de la rue Fafet.
+       </main>
+       
+        <alternatives>
+            <alt altid="1">d'un kilo</alt>
+            <alt altid="2">de 5,7 kilos</alt>
+            <alt altid="3">de 17 kilos</alt>
+            <alt altid="4">de plus de 200 kilos</alt>
+        </alternatives>
+    </insert-test>
+    
+    <compare-test>
+        <alternatives>
+            <alt altid="1">
+                Aujourd'hui la Police de St. Malo a effectué une saisie d' 
+                <ch>un kilo</ch> de cocaïne.
+            </alt>
+            <alt altid="2">
+                Aujourd'hui la Police de St. Malo a effectué une saisie de 
+                <ch>2 tonnes</ch> de cocaïne.
+            </alt>
+        </alternatives>
+    </compare-test>
+
+</story>

@@ -1,0 +1,23 @@
+<!ELEMENT alt (#PCDATA|text|ch)* >
+<!ATTLIST alt copy-original CDATA #IMPLIED >
+<!ATTLIST alt altid CDATA #REQUIRED >
+<!ATTLIST alt ignore CDATA #IMPLIED >
+<!ELEMENT alternatives ( alt+ ) >
+<!ELEMENT categories ( category+, comment? ) >
+<!ELEMENT category ( #PCDATA ) >
+<!ELEMENT comment ( #PCDATA ) >
+<!ELEMENT id ( #PCDATA ) >
+<!ELEMENT vdmid ( #PCDATA ) >
+<!ELEMENT original ( #PCDATA ) >
+
+
+
+<!ATTLIST story ignore CDATA #IMPLIED >
+<!ELEMENT ch ( #PCDATA ) >
+<!ELEMENT insert (#PCDATA )>
+<!ELEMENT text ( #PCDATA | ch )* >
+<!ELEMENT main ( #PCDATA | insert )* >
+<!ELEMENT insert-test (main, alternatives+) >
+<!ELEMENT compare-test (alternatives+) >
+
+<!ELEMENT story ( id?, vdmid?, original, comment?, categories, compare-test?, insert-test? ) >

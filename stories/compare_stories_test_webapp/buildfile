@@ -1,0 +1,21 @@
+VERSION_NUMBER = "0.0.1"
+NEXT_VERSION = "0.0.2"
+# Group identifier for your projects
+GROUP = "pertinence"
+COPYRIGHT = ""
+
+repositories.remote << "http://www.ibiblio.org/maven2/"
+
+SPRING=["org.springframework:spring:jar:2.5.6", 
+	"org.springframework:spring-webmvc:jar:2.5.6"]
+
+
+desc "The Story_compare_test project"
+define "story_compare_test" do
+  project.version = VERSION_NUMBER
+  project.group = GROUP
+  manifest["Implementation-Vendor"] = COPYRIGHT
+  compile.with SPRING 
+  test.compile.with # Add classpath dependencies
+  package(:war)
+end

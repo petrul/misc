@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="story2html.xsl"?>
+<!DOCTYPE story SYSTEM "story.dtd">
+<story>
+    <id>8</id>
+
+    <original>
+        Tu sais quoi? J'arrivais, là. J'entends le téléphone sonner, je me dis vite!
+        Mais je m'aperçois que c'est chez les Schweitzer. Et tu sais quoi, c'était Maman
+        qui téléphonait chez les Schweitzer.
+    </original>
+    
+    <comment>
+        pas sur de le garder
+        
+        difficile à comprendre : compréhensions :
+            "j'entre je vois Maman qui téléphone"
+            "j'entends le voisin dire 'Ah, bonjour, madame X'"
+    </comment>
+    
+    <categories>
+        <category>coincidence</category>
+    </categories>
+    
+    
+    <insert-test>
+        <main>
+            J'arrivais à la maison. 
+            J'entends le téléphone sonner à travers la porte, je me dis vite, il faut que je réponde! 
+            Mais je m'aperçois que c'est chez les voisins, chez les Dupont. 
+
+            Et tu sais quoi, c'était <insert/> qui téléphonait chez les Dupont.
+        </main>
+        <alternatives>
+            <alt altid="1">Maman</alt>
+            <alt altid="2">leur fille</alt>
+            <alt altid="3">leur banquier</alt>
+        </alternatives>
+    </insert-test>
+    
+</story>
+

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema 
+    attributeFormDefault="unqualified" 
+    elementFormDefault="qualified" 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    
+  <xs:element name="story" type="storyType"/>
+  
+  <xs:complexType name="altType" mixed="true">
+    <xs:sequence>
+      <xs:element name="text" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="C'est marrant, je tombe là-dessus, ‘la ville de Saint-Chéron 
+                compte 4444 habitants’."/>
+            <xs:enumeration value="C'est marrant, je tombe là-dessus, ‘la ville de Saint-Chéron 
+                compte 1234 habitants’."/>
+            <xs:enumeration value="C'est marrant, je tombe là-dessus, ‘la ville de Saint-Chéron 
+                compte 7186 habitants’."/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute type="xs:byte" name="altid" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="insert-testType">
+    <xs:sequence>
+      <xs:element type="mainType" name="main"/>
+      <xs:element type="alternativesType" name="alternatives"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="categoriesType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="category"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="alternativesType">
+    <xs:sequence>
+      <xs:element type="altType" name="alt" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="storyType">
+    <xs:sequence>
+      <xs:element type="xs:byte" name="id"/>
+      <xs:element type="xs:string" name="original"/>
+      <xs:element type="xs:string" name="comment"/>
+      <xs:element type="categoriesType" name="categories"/>
+      <xs:element type="compare-testType" name="compare-test"/>
+      <xs:element type="insert-testType" name="insert-test"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="mainType" mixed="true">
+    <xs:sequence>
+      <xs:element type="xs:string" name="insert"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="compare-testType">
+    <xs:sequence>
+      <xs:element type="alternativesType" name="alternatives"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

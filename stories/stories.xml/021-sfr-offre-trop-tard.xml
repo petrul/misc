@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="story2html.xsl"?>
+<!DOCTYPE story SYSTEM "story.dtd">
+<story>
+    <id>21</id>
+    <original>
+        Aujourd'hui, cela fait 1 an que je dois changer de portable chez SFR. Je me
+        décide enfin à y aller même s'il faut que je "banque" car pas assez de points
+        carrés rouges. Portable acheté à 13h15. Message reçu de SFR à 14h12 : "Changez
+        de mobile, SFR vous offre 15 000 points carrés rouges." VDM
+    </original>
+    
+    <categories>
+    	<category>temporal proximity</category>
+    </categories>
+    
+    <insert-test>
+    	<main>
+	   		Cela fait un an que je dois changer de portable chez SFR. Je me
+	        décide enfin à y aller même s'il faut que je paye une partie car je n'ai pas assez 
+	        de points carrés rouges. J'ai acheté le portable à 13h00. 
+	        <insert /> je reçois un message de SFR : 
+	        "Changez de mobile, SFR vous offre 15 000 points carrés rouges."
+    	</main>
+    	<alternatives>
+    		<alt altid="1">A 13h10</alt>
+    		<alt altid="2">A 14h00</alt>
+    		<alt altid="3">Deux semaines plus tard</alt>
+    	</alternatives>
+    </insert-test>
+</story>

@@ -1,0 +1,66 @@
+/* 
+	smooth taste table styles
+	written by Thomas Opp http://www.yaway.de
+*/
+table {
+  border-collapse: collapse;
+  border: 1px solid #38160C;
+  font: normal 11px verdana, arial, helvetica, sans-serif;
+  color: #555;
+  background: #fff;
+  }
+caption {
+  text-align: left;
+  font: normal 11px verdana, arial, helvetica, sans-serif;
+  background: transparent;
+  }
+td, th {
+  border: 1px dashed #555;
+  padding: .8em;
+  color: #555;
+  }
+thead th, tfoot th {
+  font: bold 11px verdana, arial, helvetica, sans-serif;
+  border: 1px solid #555;;
+  text-align: left;
+  background: #999;
+  color: #F6ECF0;
+  padding-top:6px;
+  }
+tbody td a {
+  background: transparent;
+  color: #000;
+  }
+tbody td a:hover {
+  background: transparent;
+  color: #000;
+  }
+tbody th a {
+  font: normal 11px verdana, arial, helvetica, sans-serif;
+  background: transparent;
+  font-weight:normal;
+  color: #000;
+  }
+tbody th a:hover {
+  background: transparent;
+  color: #000;
+  }
+tbody th, tbody td {
+  vertical-align: top;
+  text-align: left;
+  }
+tfoot td {
+  border: 1px solid #38160C;
+  background: #38160C;
+  padding-top:6px;
+  }
+.odd {
+  background: #7B2342;
+  }
+tbody tr:hover {
+  background: #ddd;
+  }
+tbody tr:hover th,
+tbody tr.odd:hover th {
+  background: #ddd;
+  }

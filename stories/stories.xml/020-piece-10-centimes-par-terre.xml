@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="story2html.xsl"?>
+<!DOCTYPE story SYSTEM "story.dtd">
+<story>
+    <id>20</id>
+
+    <original>
+        Aujourd'hui, je vois une pièce de 10 centimes par terre dans ma chambre. J'ai la
+        flemme de me baisser pour la ramasser, je la laisse donc où elle est. Ce midi,
+        il me manque 10 centimes pour m'acheter un sandwich et personne pour me les
+        avancer. J'ai faim. VDM
+    </original>
+
+	<categories>
+		<category>analogy</category>
+	</categories>
+
+    <insert-test>
+    	<main>
+	    	Ce matin, je vois une pièce de 20 centimes par terre dans ma chambre. J'ai la
+	        flemme de me baisser pour la ramasser, je la laisse donc où elle est. Ce midi,
+	        je veux m'acheter un sandwich, je m'aperçois qu'il me manque <insert /> centimes  
+	        et je ne trouve personne pour me les avancer.
+        </main>
+
+        <alternatives>
+        	<alt altid="1">20</alt>
+        	<alt altid="2">10</alt>
+        	<alt altid="3">5</alt>
+        </alternatives>
+    </insert-test>
+</story>
+

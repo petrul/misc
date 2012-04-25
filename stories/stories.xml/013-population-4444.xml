@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="story2html.xsl"?>
+<!DOCTYPE story SYSTEM "story.dtd">
+<story>
+    <id>13</id>
+    <original>C'est marrant, je tombe là-dessus, ‘la ville de Saint-Chéron compte 4444 habitants’.</original>
+
+    <comment>si je remplace avec 'la ville de Sète compte 77777 habitants ?'</comment>
+
+    <categories>
+        <category>Remarkable structure</category>
+    </categories>
+
+    <insert-test>
+         <main>C'est marrant, j'ai trouvé ça sur Internet: la ville de St-Chéron compte <insert /> habitants.</main>
+         <alternatives>
+            <alt altid="1">4444</alt>
+            <alt altid="2">4000</alt>
+            <alt altid="3">3856</alt>
+         </alternatives>
+    </insert-test>
+
+
+    <compare-test>
+        <alternatives>
+            <alt altid="1">
+                <text>C'est marrant, je tombe là-dessus, ‘la ville de Saint-Chéron 
+                compte 4444 habitants’.</text>
+            </alt>
+            <alt altid="2">
+                <text>C'est marrant, je tombe là-dessus, ‘la ville de Saint-Chéron 
+                compte 1234 habitants’.</text>
+            </alt>
+            <alt altid="3">
+                <text>C'est marrant, je tombe là-dessus, ‘la ville de Saint-Chéron 
+                compte 7183 habitants’.</text>
+            </alt>
+        </alternatives>
+    </compare-test>
+
+</story>
+

@@ -1,0 +1,5 @@
+<decorators defaultdir="/sitemesh-decorators">
+    <decorator name="main" page="main-decorator.jsp">
+          <pattern>/*</pattern>
+    </decorator>
+</decorators>

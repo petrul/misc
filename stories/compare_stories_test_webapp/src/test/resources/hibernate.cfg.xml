@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory name="sessionFactory">
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.password">dadi</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost/story_comparison_dev</property>
+        <property name="hibernate.connection.username">dadi</property>
+        <property name="hibernate.default_schema">story_comparison_dev</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property>
+        <property name="hibernate.hbm2ddl.auto">update</property>
+        <property name="hibernate.cglib.use_reflection_optimizer">true</property>
+        
+        
+        <mapping resource="test/pertinence/story/User.hbm.xml"/>
+        <mapping resource="test/pertinence/story/ComparisonResult.hbm.xml"/>
+        <mapping resource="test/pertinence/events/Event.hbm.xml"/>
+        
+    </session-factory>
+    
+</hibernate-configuration>

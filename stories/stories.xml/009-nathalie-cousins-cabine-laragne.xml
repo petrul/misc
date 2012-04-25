@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="story2html.xsl"?>
+<!DOCTYPE story SYSTEM "story.dtd">
+<story>
+
+    <id>9</id>
+
+    <original>
+        Adele me téléphone, et ne peut s'empêcher de me raconter qu'au moment
+        d'entrer dans la cabine, elle entend "Nathalie". Elle se retourne,
+        c'étaient des cousins qu'elle n'avait pas vus depuis 10 ans. C'était une
+        sacrée coïncidence parce qu'ils ne voulaient pas du tout venir à
+        Laragne. Ils passaient par là à cause des manifestations de routiers qui
+        bloquaient l'autoroute. 
+    </original>
+    
+    <comment>
+    </comment>
+    
+    <categories>
+        <category>coincidence</category>
+        <category>remote encounter</category>
+    </categories>
+    
+    <insert-test> 
+        <main>
+                J'étais en vacances à Stockholm et au moment d'entrer dans une
+                cabine téléphonique, j'ai entendu quelqu'un m'appeler : je me suis retourné,
+                c'était <insert/>.
+        </main>
+
+        <alternatives>
+            <alt altid="1">mon frère que je n'avais pas vu depuis 10 ans</alt>
+            <alt altid="2">des cousins que je n'avais pas vus depuis 10 ans</alt>
+            <alt altid="3">des cousins que je n'avais pas vus depuis 1 an</alt>
+        </alternatives>
+        
+    </insert-test>
+    
+    <compare-test>
+
+        <alternatives>
+            <alt altid="1">
+                <text>
+                    Ma soeur Adele est à Laragne et me téléphone: elle me raconte qu'au moment
+                    d'entrer dans la cabine téléphonique, elle avait entendu quelqu'un l'appeler.
+                    Elle s'est retourné, c'étaient <ch>des cousins qu'elle n'avait pas vus
+                    depuis 10 ans</ch>.
+    
+                    En fait, ils ne voulaient pas du tout venir à
+                    Laragne. Ils passaient par là à cause des manifestations de
+                    routiers qui bloquaient l'autoroute.
+                </text>
+            </alt>
+    
+            <alt altid="2">
+                <text>
+                    Ma soeur Adele est à Laragne et me téléphone: elle me raconte qu'au moment
+                    d'entrer dans la cabine téléphonique, elle avait entendu quelqu'un l'appeler.
+                    Elle s'est retourné, c'étaient <ch>des cousins qu'elle n'avait pas vus depuis 2 mois.</ch>.
+    
+                    En fait, ils ne voulaient pas du tout venir à
+                    Laragne. Ils passaient par là à cause des manifestations de
+                    routiers qui bloquaient l'autoroute.
+                </text>
+            </alt>
+    
+            <alt altid="3">
+                <text>
+                    Ma soeur Adele est à Laragne et me téléphone: elle me raconte qu'au moment
+                    d'entrer dans la cabine téléphonique, elle avait entendu quelqu'un l'appeler.
+                    Elle s'est retourné, c'étaient <ch>des passants</ch>.
+    
+                    En fait, ils ne voulaient pas du tout venir à
+                    Laragne. Ils passaient par là à cause des manifestations de
+                    routiers qui bloquaient l'autoroute.
+                </text>
+            </alt>
+    
+        </alternatives>
+    </compare-test>
+</story>
+

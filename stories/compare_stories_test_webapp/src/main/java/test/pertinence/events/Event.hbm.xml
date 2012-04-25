@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="test.pertinence.events">
+	<class name="Event" lazy="false">
+		<id name="id">
+			<generator class="native"></generator>
+		</id>
+		<discriminator column="event_type" type="string"></discriminator>
+		
+		<property name="date"></property>
+		<many-to-one name="user"></many-to-one>
+
+		<subclass name="LoginEvent" discriminator-value="login">
+		</subclass>
+		<subclass name="LogoutEvent" discriminator-value="logout">
+		</subclass>
+		<subclass name="TestStartedEvent" discriminator-value="test-started">
+		</subclass>
+		<subclass name="TestEndedEvent" discriminator-value="test-ended">
+		</subclass>
+		<subclass name="QuestionPresentedEvent" discriminator-value="question-presented">
+			<many-to-one name="response"></many-to-one>
+		</subclass>
+		<subclass name="ResponseSubmittedEvent" discriminator-value="response-submit">
+			<many-to-one name="response"></many-to-one>
+		</subclass>
+		<subclass name="FinalCommentEvent" discriminator-value="final-comment">
+			<property name="comment" length="60000"></property>
+		</subclass>
+	</class>
+</hibernate-mapping>

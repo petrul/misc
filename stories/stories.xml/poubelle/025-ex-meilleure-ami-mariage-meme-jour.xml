@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="story2html.xsl"?>
+<!DOCTYPE story SYSTEM "story.dtd">
+<story>
+    <id>25</id>
+    <original>
+        Aujourd'hui, je reçois des nouvelles de ma meilleure amie et de mon ex : un
+        faire part de mariage... Coïncidence, ils se marient le même jour... VDM 
+    </original>
+
+    <comment>
+    	à retravailler
+    </comment>
+
+    <categories>
+    	<category>analogy</category>
+    </categories>
+
+    <insert-test>
+    	<main>
+	    	Je regardais dans l'album familial, c'est bizarre, ma mère et ma grandmère
+	    	se sont mariées les deux le même jour, le 14 septembre, <insert /> ...
+    	</main>
+    	<alternatives>
+    		<alt altid="1">
+    			en plus ma grandmère a changé de nom de Triboulet en Ollagnier 
+    			alors que ma mère, à l'invers, a changé son nom de jeune fille Ollagnier en Triboulet</alt>
+			<alt altid="2">en plus elles portaient des robes de mariées faites par la même enseigne de tailleurs</alt>
+    		<alt altid="3">en plus elles avaient le même âge</alt>
+    	</alternatives>
+    </insert-test>
+</story> 

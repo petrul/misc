@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="story2html.xsl"?>
+<!DOCTYPE story SYSTEM "story.dtd">
+<story>
+    <id>24</id>
+    <original>
+        Aujourd'hui, 2 semaines après le vol de ma voiture, la police m'apprend qu'une
+        voiture qui a des chances d'être la mienne est en vente sur Internet. Ils me
+        présentent l'annonce, le numéro de portable est celui d'un de mes voisins. Je le
+        reconnais tout de suite, c'est aussi mon petit copain. VDM 
+    </original>
+
+    <categories>
+    	<category>proximity</category>
+    </categories>
+
+    <insert-test>
+    	<main>
+	    	Deux semaines après le vol de ma voiture, la police m'apprend qu'une
+	        voiture qui a des chances d'être la mienne est en vente sur Internet. Ils me
+	        présentent l'annonce, le numéro de portable est identifié comme étant <insert/>.
+    	</main>
+    	<alternatives>
+    		<alt altid="1">celui de mon collègue de bureau</alt>
+    		<alt altid="2">celui d'un collègue de mon frère</alt>
+    		<alt altid="3">celui de quelqu'un qui habite le même quartier</alt>
+    	</alternatives>
+    </insert-test>
+</story> 

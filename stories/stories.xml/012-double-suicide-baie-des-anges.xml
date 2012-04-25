@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="story2html.xsl"?>
+<!DOCTYPE story SYSTEM "story.dtd">
+<story>
+    <id>12</id>
+    <original>
+        Surprise, suspense et perplexité pour les gendarmes maritimes de Nice et les
+        policiers du commissariat d'Antibes, confrontés à une énigme peu banale : celle
+        de la découverte dans la baie des Anges, dans l'après midi, des corps flottant
+        entre deux eaux de deux femmes d'âge mûr aux élégantes tenues vestimentaires.
+        
+        Apparemment les deux noyades, voisines dans le temps ne se sont pas produites au
+        même endroit, compte tenu des courants marins. Parmi les hypothèses, celle de
+        passagères tombées ou poussées du pont d'un bateau de croisière. Aucune trace de
+        coups n'a été décelée sur les deux corps. Ils n'ont séjourné dans l'eau que
+        quelques heures. 
+        
+        En réalité, une extraordinaire coïncidence aurait poussé deux
+        femmes d'âge similaire, mais ne se connaissant absolument pas, à choisir le même
+        jour pour aller en pleine matinée se noyer presque simultanément au même endroit
+        et en tenue élégante.
+        
+        C'est l'explication qui semble devoir être retenue par des
+        enquêteurs plutôt sidérés. Dans le cas d'une des victimes, Michèle R.,
+        domiciliée dans le Maryland aux Etats-Unis, sa soeur a indiqué qu'elle était
+        très dépressive. Un promeneur l'aurait fugitivement entrevue au moment où elle
+        entrait de son plein gré dans l'eau. Il aurait cru " au geste d'une originale ".
+        Quant à la deuxième noyée, originaire de la région niçoise, elle aurait laissé à
+        son domicile une lettre pour expliquer son geste.    
+    </original>
+
+    <comment></comment>
+
+    <categories>
+        <category>coincidence</category>
+        <category>analogy</category>
+    </categories>
+
+    <insert-test>
+        <main>
+         Les policiers du comissariat d'Antibes ont découvert dans l'après midi 
+         dans la baie des Anges les corps flottants de deux
+         femmes aux élégantes tenues vestimentaires. Apparemment les deux
+         noyades se sont passées à peu près en même temps. De plus, les deux femmes <insert/>.
+        </main>
+        <alternatives>
+            <alt altid="1">avaient chacune un tatouage rouge représentant le dragon Tsuba-Kasai sur le bras droit</alt>
+            <alt altid="2">avaient chacune un tatouage rouge sur le bras droit</alt>
+            <alt altid="3">avaient chacune un tatouage sur le bras droit</alt>
+        </alternatives>
+    </insert-test>
+    
+</story>
+
+
+
+
+

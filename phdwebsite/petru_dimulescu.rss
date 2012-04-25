@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Petru Dimulescu, Phd student</title>
+        <description>My Phd site, contains publications, slides, description of my phd-related activity</description>
+        <lastBuildDate>Tue, June 08 2010 11:47:01 GMT</lastBuildDate>
+        <link>http://perso.telecom-paristech.fr/~dimulesc/</link>
+
+        <item>
+            <title>Rapport mi-parcours</title>
+            <description>Rapport du milieu de ma thèse</description>
+            <pubDate>Tue, June 08 2010 11:47:01 GMT</pubDate>
+            <link>http://perso.telecom-paristech.fr/~dimulesc/pdf/rapport-avancement-miparcours-final%20version.pdf</link>
+        </item>
+
+        <item>
+            <title>Added RSS feed</title>
+            <description>First RSS that I write manually, no generation, no PHP, no servlet, no JSP no nothing, just editing with gedit. Yes. Let's 			only automate what needs automation.</description>
+            <pubDate>Mon, 17 May 2010 11:47:01 GMT</pubDate>
+            <link>http://perso.telecom-paristech.fr/~dimulesc/petru_dimulescu.rss</link>
+        </item>
+
+        <item>
+            <title>Added slides</title>
+            <description>The presentations I have done up to here, why deprive the world of such art?</description>
+            <pubDate>Mon, 17 May 2010 00:00:01 GMT</pubDate>
+            <link>http://perso.telecom-paristech.fr/~dimulesc/slides.html</link>
+        </item>
+    </channel>
+</rss>

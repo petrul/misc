@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Documentation infordist</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+      <link href="style/main.css" rel="stylesheet" media="screen" />
+  </head>
+  
+  <body>
+    <h1>Documentation pour Infordist GUI</h1>
+
+<p>Infordist GUI est une application web qui permet d'inspecter des distances sémantiques à base de NGD :
+<a href="http://www.infres.enst.fr/searcher_app/"/>http://www.infres.enst.fr/searcher_app/</a>
+</p>
+
+<p>Rappel, étant donnés deux terms x et y, la fréquence d'apparition dans le corpus détermine <tt>g(x) = nr_hits(x)/nr_total_documents</tt>, assimilable à une probabilité. Le code attendu <tt>G(x) = -log g(x)</tt> donne la complexité du terme.</p>
+
+<p>Etant donné G(x,y) et G(x), on peut calculer <tt>G(y|x) = G(x,y) - G(x)</tt>. Exact formulas for NGD, are <a href="pdf/formalisation-complexite-ngd.pdf">here</a>. </p>
+
+Quatre colonnes, donc:
+
+<ul>
+	<li>NGD: <a href="http://eprints.pascal-network.org/archive/00002784/01/tkde06.pdf">Normalized Google Distance: max( G(x|y), G(y|x) ) / max(G(x), G(y))</a></li>
+	<li>UNGD: unnormalized NGD: <tt>max( G(x|y), G(y|x) )</tt></li>
+	<li>The last two columns are conditional complexities, <tt>G(x|y)</tt> and <tt>G(y|x)</tt>. They are no longer symmetrical, hence two columns, not one</li>
+
+</ul>
+
+  </body>
+</html>

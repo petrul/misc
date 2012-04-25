@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="story2html.xsl"?>
+<!DOCTYPE story SYSTEM "story.dtd">
+<story>
+	<id>27</id>
+	<original>
+		Je t'ai parlé de M. C'est un gars au boulot, on a été dans le même
+		bureau pendant un an et demi. Hier on discutait, il me parle de son
+		service militaire. Il me dit "j'ai fais mon service dans un petit
+		village, Pap... Pla... Plappeville". C'est marrant, on a passé plus
+		d'un an dans le même bureau, et hier il me dit ça.
+    </original>
+
+	<categories>
+		<category>coïncidence</category>
+	</categories>
+
+	<insert-test>
+		<main>
+			Mon collègue au boulot, on a été dans le même
+			bureau pendant un moment. Hier on discutait, il me parle de son
+			service militaire. Il me dit "j'ai fait mon service dans un petit
+			village, Pap... Pla... Plappeville". 
+			C'est mon village natal! 
+			C'est marrant, on a passé <insert/> dans le même bureau, et hier il me dit ça.
+		</main>
+		<alternatives>
+			<alt altid="1">deux ans</alt>
+			<alt altid="2">un an</alt>
+			<alt altid="3">un mois</alt>
+		</alternatives>
+	</insert-test>
+</story> 

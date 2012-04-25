@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="story2html.xsl"?>
+<!DOCTYPE story SYSTEM "story.dtd">
+<story>
+	<id>29</id>
+	<original>
+		L’actrice hollywoodienne [Nicole Kidman], désormais mariée au chanteur country Keith
+		Urban, est restée seule durant 6 années après ce divorce qu’elle
+		qualifie de ‘très douloureux’.
+    </original>
+    
+	<comment>
+		google: le 9 déc 2008
+			"Nicole Kidman" : 15 500 000
+			"Kate Winslet" 	:  7 000 000
+	</comment>
+	
+	<categories>
+		<category>celebrity</category>
+	</categories>
+
+	<insert-test>
+		<main>
+			<insert /> s'est remariée après être restée seule durant six années 
+			après son très douloureux divorce.
+		</main>
+		<alternatives>
+			<alt altid="1">Nicole Kidman</alt>
+			<alt altid="2">Kate Winslet</alt>
+			<alt altid="3">Une connaissance à moi</alt>
+		</alternatives>
+	</insert-test>
+</story> 

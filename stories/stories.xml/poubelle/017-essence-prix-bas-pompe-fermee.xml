@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="story2html.xsl"?>
+<!DOCTYPE story SYSTEM "story.dtd">
+<story ignore="yes">
+    <id>17</id>
+    <original>
+        Aujourd'hui, je dois faire le plein de ma voiture. En chemin, je trouve une
+        pompe à essence, le prix est vraiment bas, incroyable, incroyable, je m'arrête,
+        je sors de la voiture... Pour constater que la pompe est fermée. Depuis 8 mois.
+        C'est écrit en tout petit. VDM   
+    </original>
+    
+    <comment>à travailler</comment>
+    
+    <categories>
+    	<category>hypothèse</category>
+    </categories>
+    
+    <insert-test>
+    	<main>
+    		Je dois faire le plein de ma voiture. En chemin, je trouve une
+	        pompe à essence, le prix est vraiment bas, incroyable, incroyable, je m'arrête,
+	        je sors de la voiture. <insert />... 
+    	</main>
+    	<alternatives>
+    		<alt altid="1">En fait la pompe était fermée depuis 8 mois, 
+    			c'était écrit en tout petit.</alt>
+    		<alt altid="2">En fait j'avais simplement mal vu.</alt>
+    	</alternatives>
+    </insert-test>
+</story>

@@ -1,0 +1,28 @@
+
+table.stories td {
+	vertical-align: middle;
+}
+
+div.story-text {
+	/* border : 5px solid #CC3300; */
+	/* background-color: #0066CC;
+	color:white; */
+	padding: 5px;
+	margin:15px;
+	/* height: 150px; */
+	font-style: italic;
+}
+
+div#story-left, div#story-right {
+	border-width : 0px;
+	border-style: solid;
+	border-color: #009900;
+}
+
+div#debug-console {
+	background-color: black;
+	color: white;
+	height: 100px;
+	overflow: scroll;
+	display:none;
+}
