@@ -1,0 +1,15 @@
+<h3>${ownerr}/${repo}</h3>
+<ul>
+	<li>Owned by ${ownerr}</li>
+	
+	<p><a href="@{repo.details(ownerr, repo)}">Details</a></p>
+	
+	<li>Contributors:
+		<ul>
+		#{list items:collaborators, as:'c' }
+        	<li><img style="widht:40px; height:40px;" src=${c.get("avatar_url").getAsString()}/> <a href=${c.get("url").getAsString()}>${c.get("login").getAsString()}</a></li>
+    	#{/list}
+    	</ul> 
+	</li>
+	
+</ul>

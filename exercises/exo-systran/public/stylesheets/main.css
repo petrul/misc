@@ -1,0 +1,27 @@
+h1, h2, h3 {
+	font-family: georgia;
+}
+
+p, td {
+	font-family: georgia;
+}
+
+
+.global-button {
+	 position:absolute;
+	 top:0;
+	 right:20px;
+	 padding: 10px;
+	 font-family: "Trebuchet MS";
+	 font-size:11px;
+	 border: 1px solid #ddd;
+}
+
+.global-botton :hover {
+	background-color:#ddd;
+}
+
+div#global-container {
+	width:800px;
+	margin:0 auto 0 auto;
+}

@@ -1,0 +1,117 @@
+#{extends 'main.html' /}
+#{set title:'Search Github repositories' /}
+
+<style>
+
+
+div#container {
+}
+
+div#repo-list {
+	margin-top:20px;
+	width: 300px;
+	padding:3px;
+	display:inline-block;
+	vertical-align: top;
+}
+
+div#repo-detail {
+	margin-top:20px;
+	display:inline-block;
+	vertical-align: top;
+	margin-left:10px;
+}
+
+div.item {
+	margin-top:2px;
+	border-top:1px solid #DBD5B7;
+}
+
+div.item:hover {
+	background-color: #DBD5B7;
+}
+
+div.itemtitle {
+	font-weight:bold;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Arial, sans-serif;
+	font-size:small;
+	color:#239349;
+}
+
+div.itemdesc {
+	font-size:small;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Arial, sans-serif;
+	
+}
+</style>
+
+<h2 class="green">Search Github repositories</h2>
+<div id="activity-indicator" style="background-color: red; float:right;"></div>
+<form onsubmit="javascript:searchOnGitHub($('#text2search').val()); return false;">
+	<input id="text2search" type="text" />
+	<input type="submit" value="Search" />
+</form>
+
+<div id="container">
+
+	<div id="repo-list" >
+	</div>
+	
+	<div id="repo-detail">
+	</div>
+	
+</div>
+
+<script>
+	
+	$(document).ready(function() {
+	   $('#text2search').focus();
+	 });
+	
+// 	$('h2').ajaxStart(function() {
+// 		$('h2').activity({outside: true, align: 'right', segments: 10, steps: 3, width:2, space: 0, length: 3, color: '#239349', speed: 1.5});
+// 	})
+
+	function startActivityIndicator() {
+		$('h2').activity({outside: true, align: 'right', segments: 10, steps: 3, width:2, space: 0, length: 3, color: '#239349', speed: 1.5});
+	}
+	
+	function stopActivityIndicator() {
+		$('h2').activity(false);
+	}
+	
+	function showRepo(owner, repoName) {
+		startActivityIndicator();
+		$('#repo-detail').load('../repo/embeddableDetails', {owner:owner, repo:repoName},
+			function (responseText, textStatus, req) {
+			        if (textStatus == "error") {
+			          alert('oops! could not get repo details.');
+			        }
+			        stopActivityIndicator();
+			}
+		);
+		
+	}
+	
+	function searchOnGitHub(text) {
+		startActivityIndicator();
+		var req = $.getJSON("https://github.com/api/v2/json/repos/search/" + escape(text) + "?callback=?", 
+				function(json) {
+					//$('#container').css({display:"inline"});
+					var list = [];
+					//alert(json.repositories.length);
+					$.each(json.repositories, function(index, item) {
+						var itemdiv = '<div class="item" onclick=showRepo("' + item.owner + '","' + item.name  + '")>';
+						itemdiv += '<div class="itemtitle">'  + item.name + "</div>";
+						itemdiv += '<div class="itemdesc">' + item.description + "</div>";
+						itemdiv += "</div>";
+						list.push(itemdiv);
+					});
+					
+					$('#repo-list').html(list.join(''));
+			 	})
+		
+		.error(function() { $('h2').activity(false); alert("error while querying github"); })
+		.complete(function() {$('h2').activity(false);} )
+	}
+</script>

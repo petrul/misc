@@ -1,0 +1,8 @@
+#{extends 'main.html' /}
+#{set title:'See also for repository [' + ownerr + '/' + repo + ']'/}
+
+<h2>See also</h2>
+
+        #{list items:seealso.keySet(), as:'repo'} 
+        <a href="@{repo.details(repo.owner, repo.name)}">${repo.owner}/${repo.name}</a>, 
+        #{/list} 
