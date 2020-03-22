@@ -1,0 +1,33 @@
+README
+======
+
+The main executable class is named everymatrix.homework.App . It listens on port localhost:8001
+Run it like this:
+
+$ java -jar everymatrix-homework.jar
+
+A bash script that uses curl to illustrate posting bets and getting high stakes is ./requests.sh
+
+The code is buildable using:
+
+$ gradle clean build jar
+
+Code structure notes:
+    - Three Handlers manage processing of the three described REST endpoints.
+    - Exceptions are translated to HTTP codes on bad request etc.
+    - The in-memory "database" is named Registry and uses hashmaps for storing data.
+
+Test cases can be found under test/
+    - Unit tests are provided and one integration test
+
+Note:
+====
+1. The correct way in Java projects to store sources is .java files under src/main/java
+and .java test files under src/test/java
+
+Most standard Java build systems (including Gradle and Maven) take into account this standard layout.
+Since the exercise specifies src/ I put the sources there, although this is non-standard layout.
+The test sources can be found, symmetrically, under test/
+
+2. The homework description does not specify if one customer may or may not open several different sessions.
+This work assumes one customer may open several sessions.

@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BuildServerSettings">
+    <option name="LOGIN" value="" />
+    <option name="SERVER_URL" value="http://buildserver" />
+    <option name="REMEMBER_ME" value="true" />
+    <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
+    <option name="INSPECTIONS_BUILD_TYPE_IDS" />
+    <option name="DUPLICATES_BUILD_TYPE_IDS" />
+    <option name="COVERAGE_SETTINGS" />
+    <option name="TEST_STATUS_ENABLED" value="true" />
+    <option name="TEST_STATUS_SHOW_SUCCESSFUL" value="false" />
+    <option name="POSTPONE_SUITABLE_CONFIGURATIONS_SEARCH" value="false" />
+    <option name="ARTIFACTS_BUILD_TYPE_IDS" />
+    <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
+    <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
+    <option name="REQUEST_CONFIRMATON" value="false" />
+    <option name="PRE_TESTED_COMMIT" value="true" />
+    <option name="FILTER_BY_STATUS" value="false" />
+    <option name="FILTER_MARKED_AS_FIXED" value="false" />
+    <option name="SHOW_CLOSE_PROMPT" value="true" />
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
+    <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
+    <option name="showStatusBarWidget" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a72a209c-d47d-425c-84c1-82b65f89ea38" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+    <option name="REVERSE_PATCH" value="false" />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <breakpoint_rules converted="true" />
+    <ui_properties converted="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="everymatrix-homework" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="everymatrix-homework" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="everymatrix-homework" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="everymatrix-homework" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ModuleEditorState">
+    <option name="LAST_EDITED_MODULE_NAME" />
+    <option name="LAST_EDITED_TAB_NAME" />
+  </component>
+  <component name="ProjectId" id="1Ut3X3LohxsJ5ZpJyOncXPQteZS" />
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/everymatrix-homework.ipr" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="Application.App">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="everymatrix.homework.App" />
+      <module name="everymatrix-homework.main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="everymatrix.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegrationTest.test1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;everymatrix.homework.IntegrationTest.test1&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="IntegrationTest.testCreateSession" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;everymatrix.homework.IntegrationTest.testCreateSession&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="RegistryTest.testHighStakes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;everymatrix.homework.RegistryTest.testHighStakes&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="RegistryTest.testPlaceBet" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;everymatrix.homework.RegistryTest.testPlaceBet&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <option name="AUTO_RESTART" value="false" />
+      <method v="2">
+        <option name="BuildArtifacts" enabled="false" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.App" />
+      <item itemvalue="Gradle.RegistryTest.testPlaceBet" />
+      <item itemvalue="Gradle.IntegrationTest.test1" />
+      <item itemvalue="Gradle.IntegrationTest.testCreateSession" />
+      <item itemvalue="Gradle.RegistryTest.testHighStakes" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="Gradle.RegistryTest.testHighStakes" />
+        <item itemvalue="Gradle.RegistryTest.testPlaceBet" />
+        <item itemvalue="Gradle.IntegrationTest.testCreateSession" />
+        <item itemvalue="Gradle.IntegrationTest.test1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a72a209c-d47d-425c-84c1-82b65f89ea38" name="Default Changelist" comment="" />
+      <created>1576162126958</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576162126958</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="23" key="#Project_Structure" timestamp="1576475965973">
+      <screen x="4" y="0" width="1362" height="768" />
+    </state>
+    <state x="275" y="23" key="#Project_Structure/4.0.1362.768@4.0.1362.768" timestamp="1576475965973" />
+    <state x="275" y="41" key="#Project_Structure/4.23.1362.745@4.23.1362.745" timestamp="1576162269350" />
+    <state x="147" y="46" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576336829956">
+      <screen x="4" y="0" width="1362" height="768" />
+    </state>
+    <state x="147" y="46" key="#com.intellij.execution.impl.EditConfigurationsDialog/4.0.1362.768@4.0.1362.768" timestamp="1576336829956" />
+    <state x="404" y="185" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576223341431">
+      <screen x="4" y="23" width="1362" height="745" />
+    </state>
+    <state x="404" y="185" key="#com.intellij.fileTypes.FileTypeChooser/4.23.1362.745@4.23.1362.745" timestamp="1576223341431" />
+    <state x="493" y="77" key="#com.intellij.ide.util.MemberChooser" timestamp="1576573898544">
+      <screen x="4" y="0" width="1362" height="768" />
+    </state>
+    <state x="493" y="77" key="#com.intellij.ide.util.MemberChooser/4.0.1362.768@4.0.1362.768" timestamp="1576573898544" />
+    <state x="493" y="98" key="#com.intellij.ide.util.MemberChooser/4.23.1362.745@4.23.1362.745" timestamp="1576244876946" />
+    <state x="525" y="271" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1576162164795">
+      <screen x="4" y="23" width="1362" height="745" />
+    </state>
+    <state x="525" y="271" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/4.23.1362.745@4.23.1362.745" timestamp="1576162164795" />
+    <state x="263" y="37" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1576162161344">
+      <screen x="4" y="23" width="1362" height="745" />
+    </state>
+    <state x="263" y="37" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/4.23.1362.745@4.23.1362.745" timestamp="1576162161344" />
+    <state x="457" y="250" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1576312485192">
+      <screen x="4" y="0" width="1362" height="768" />
+    </state>
+    <state x="457" y="250" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/4.0.1362.768@4.0.1362.768" timestamp="1576312485192" />
+    <state width="1324" height="149" key="GridCell.Tab.0.bottom" timestamp="1576579345942">
+      <screen x="4" y="0" width="1362" height="768" />
+    </state>
+    <state width="1324" height="149" key="GridCell.Tab.0.bottom/4.0.1362.768@4.0.1362.768" timestamp="1576579345942" />
+    <state width="1324" height="226" key="GridCell.Tab.0.bottom/4.23.1362.745@4.23.1362.745" timestamp="1576578286263" />
+    <state width="1324" height="149" key="GridCell.Tab.0.center" timestamp="1576579345941">
+      <screen x="4" y="0" width="1362" height="768" />
+    </state>
+    <state width="1324" height="149" key="GridCell.Tab.0.center/4.0.1362.768@4.0.1362.768" timestamp="1576579345941" />
+    <state width="1324" height="226" key="GridCell.Tab.0.center/4.23.1362.745@4.23.1362.745" timestamp="1576578286261" />
+    <state width="1324" height="149" key="GridCell.Tab.0.left" timestamp="1576579345940">
+      <screen x="4" y="0" width="1362" height="768" />
+    </state>
+    <state width="1324" height="149" key="GridCell.Tab.0.left/4.0.1362.768@4.0.1362.768" timestamp="1576579345940" />
+    <state width="1324" height="226" key="GridCell.Tab.0.left/4.23.1362.745@4.23.1362.745" timestamp="1576578286259" />
+    <state width="1324" height="149" key="GridCell.Tab.0.right" timestamp="1576579345942">
+      <screen x="4" y="0" width="1362" height="768" />
+    </state>
+    <state width="1324" height="149" key="GridCell.Tab.0.right/4.0.1362.768@4.0.1362.768" timestamp="1576579345942" />
+    <state width="1324" height="226" key="GridCell.Tab.0.right/4.23.1362.745@4.23.1362.745" timestamp="1576578286457" />
+    <state width="1324" height="226" key="GridCell.Tab.1.bottom" timestamp="1576578522982">
+      <screen x="4" y="0" width="1362" height="768" />
+    </state>
+    <state width="1324" height="226" key="GridCell.Tab.1.bottom/4.0.1362.768@4.0.1362.768" timestamp="1576578522982" />
+    <state width="1324" height="226" key="GridCell.Tab.1.bottom/4.23.1362.745@4.23.1362.745" timestamp="1576578286267" />
+    <state width="1324" height="226" key="GridCell.Tab.1.center" timestamp="1576578522981">
+      <screen x="4" y="0" width="1362" height="768" />
+    </state>
+    <state width="1324" height="226" key="GridCell.Tab.1.center/4.0.1362.768@4.0.1362.768" timestamp="1576578522981" />
+    <state width="1324" height="226" key="GridCell.Tab.1.center/4.23.1362.745@4.23.1362.745" timestamp="1576578286265" />
+    <state width="1324" height="226" key="GridCell.Tab.1.left" timestamp="1576578522980">
+      <screen x="4" y="0" width="1362" height="768" />
+    </state>
+    <state width="1324" height="226" key="GridCell.Tab.1.left/4.0.1362.768@4.0.1362.768" timestamp="1576578522980" />
+    <state width="1324" height="226" key="GridCell.Tab.1.left/4.23.1362.745@4.23.1362.745" timestamp="1576578286264" />
+    <state width="1324" height="226" key="GridCell.Tab.1.right" timestamp="1576578522981">
+      <screen x="4" y="0" width="1362" height="768" />
+    </state>
+    <state width="1324" height="226" key="GridCell.Tab.1.right/4.0.1362.768@4.0.1362.768" timestamp="1576578522981" />
+    <state width="1324" height="226" key="GridCell.Tab.1.right/4.23.1362.745@4.23.1362.745" timestamp="1576578286266" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1576475620680">
+      <screen x="4" y="0" width="1362" height="768" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/4.0.1362.768@4.0.1362.768" timestamp="1576475620680" />
+    <state x="184" y="23" key="SettingsEditor/4.23.1362.745@4.23.1362.745" timestamp="1576242559197" />
+    <state width="500" height="459" key="SwitcherDM" timestamp="1576579140709">
+      <screen x="4" y="0" width="1362" height="768" />
+    </state>
+    <state width="500" height="459" key="SwitcherDM/4.0.1362.768@4.0.1362.768" timestamp="1576579140709" />
+    <state width="500" height="445" key="SwitcherDM/4.23.1362.745@4.23.1362.745" timestamp="1576310506374" />
+    <state x="658" y="375" key="com.intellij.ide.util.TipDialog" timestamp="1576942796458">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="658" y="375" key="com.intellij.ide.util.TipDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1576942796458" />
+    <state x="354" y="208" key="com.intellij.ide.util.TipDialog/4.23.1362.745@4.23.1362.745" timestamp="1576223230431" />
+    <state x="298" y="2" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1576335547472">
+      <screen x="4" y="0" width="1362" height="768" />
+    </state>
+    <state x="298" y="2" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/4.0.1362.768@4.0.1362.768" timestamp="1576335547472" />
+    <state x="349" y="27" width="667" height="714" key="find.popup" timestamp="1576343490977">
+      <screen x="4" y="0" width="1362" height="768" />
+    </state>
+    <state x="349" y="27" width="667" height="714" key="find.popup/4.0.1362.768@4.0.1362.768" timestamp="1576343490977" />
+    <state x="697" y="223" key="new project wizard" timestamp="1576676060992">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="697" y="223" key="new project wizard/0.23.2560.1417@0.23.2560.1417" timestamp="1576676060992" />
+    <state x="340" y="71" width="670" height="697" key="search.everywhere.popup" timestamp="1576570758547">
+      <screen x="4" y="0" width="1362" height="768" />
+    </state>
+    <state x="340" y="71" width="670" height="697" key="search.everywhere.popup/4.0.1362.768@4.0.1362.768" timestamp="1576570758547" />
+    <state x="340" y="92" width="670" height="676" key="search.everywhere.popup/4.23.1362.745@4.23.1362.745" timestamp="1576310604894" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/everymatrix/homework/App.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,34 @@
+plugins {
+    id 'java'
+    id 'groovy'
+    id 'application'
+    id 'idea'
+}
+
+sourceSets {
+    main.java.srcDirs = ['src']
+    test.java.srcDirs = ['test']
+    test.groovy.srcDirs = ['test']
+}
+
+repositories {
+    jcenter()
+}
+
+jar {
+    manifest {
+        attributes "Main-Class": 'everymatrix.homework.App'
+    }
+
+    from {
+        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.12'
+    testCompile group: 'org.codehaus.groovy', name: 'groovy-all', version: '2.4.2'
+
+}
+
+mainClassName = 'everymatrix.homework.App'
